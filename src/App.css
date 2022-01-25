@@ -1,0 +1,29 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.Item{
+  display: flex;
+  gap: 10px;
+}
+.Item p:nth-child(1){
+  display: flex;
+  min-width: 10%;
+}
+.Item p{
+  display: flex;
+  min-width: 15%;
+}
+
+.Line{
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+.charts{
+  order: 0;
+  display: flex;
+  justify-content: space-around;
+}
